@@ -13,16 +13,16 @@
 <br />
 <br />
 
-  <a href="https://agenda-jsguilherme.netlify.app">
-    <img src="./public/img/agenda-logo.png" width="300px" alt="Agenda logo">
+  <a href="webite-http-addres">
+    <img src="./public/img/agenda-logo.png" width="300px" alt="logo">
   </a>
 
   <p align="center">
-    Agenda
+    Expenses Viewer
     <br />
-    <a href="https://agenda-jsguilherme.netlify.app">View Demo</a>
+    <a href="webite-http-addres">View Demo</a>
     ·
-    <a href="https://github.com/SilveiraGuilherme/agenda/issues/new">Report Bug</a>
+    <a href="https://github.com/SilveiraGuilherme/expenses-viewer/issues/new">Report Bug</a>
   </p>
 </div>
 
@@ -59,11 +59,11 @@
 
 ## About The Project
 
-[![Alt text](./public/img/agenda-website.png)](https://agenda-jsguilherme.netlify.app)
+[![Alt text](./public/img/agenda-website.png)](webite-http-addres)
 
 <!-- WEBSITE DESCRIPTION -->
 
-This is a web agenda that allows users to add, edit and remove events and reminders containing information of their preference, which can be very usefull for planning.
+This is a webpage application that allows users to view a list of expenses sorted by month and year.
 
 ### Built With
 
@@ -82,41 +82,37 @@ To get and run a local copy of this project follow the instructions below.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/SilveiraGuilherme/agenda.git
+   git clone https://github.com/SilveiraGuilherme/expenses-viewer.git
    ```
 2. Install packages
    ```sh
    npm install
    ```
-3. Install packages inside the folder 'agenda-react-backend'
+3. Install packages inside the folder 'backend'
    ```sh
    npm install
    ```
-4. Run the backend inside the folder 'agenda-react-backend'
+4. Run the backend inside the folder 'backend'
    ```sh
-   npm start -- noauth
+   npm start
    ```
 5. Run the project locally
    ```sh
-   npm start -- noauth
+   npm start
    ```
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-- [x] Create calendar dinamically.
-- [x] Load events from the backend.
-- [x] Load agendas from the backend.
-- [x] Hide/show agendas.
-- [x] Add router.
-- [x] Add modules.
+- [x] Create application using TypeScript.
+- [x] Add libraries Material-UI and React Router.
+- [x] Load backend data.
+- [x] Build an interface to show content.
+- [x] Implement month/year changes using React Router.
 - [x] Create events.
-- [x] Save data in the backend.
-- [x] Validate form.
-- [x] Edit events.
 
-See the [open issues](https://github.com/SilveiraGuilherme/agenda/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/SilveiraGuilherme/expenses-viewer/issues) for a full list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -144,21 +140,21 @@ Don't forget to give the project a star! Thanks again!
 
 ## Links
 
-- GitHub repository: [https://github.com/SilveiraGuilherme/agenda](https://github.com/SilveiraGuilherme/agenda)
-- Website: [agenda](https://agenda-jsguilherme.netlify.app)
+- GitHub repository: [https://github.com/SilveiraGuilherme/expenses-viewer](https://github.com/SilveiraGuilherme/expenses-viewer)
+- Website: [expenses-viewer](webite-http-addres)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/SilveiraGuilherme/agenda.svg?style=for-the-badge
-[contributors-url]: https://github.com/SilveiraGuilherme/agenda/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SilveiraGuilherme/agenda.svg?style=for-the-badge
-[forks-url]: https://github.com/SilveiraGuilherme/agenda/network/members
-[stars-shield]: https://img.shields.io/github/stars/SilveiraGuilherme/agenda.svg?style=for-the-badge
-[stars-url]: https://github.com/SilveiraGuilherme/agenda/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SilveiraGuilherme/agenda.svg?style=for-the-badge
-[issues-url]: https://github.com/SilveiraGuilherme/agenda/issues
+[contributors-shield]: https://img.shields.io/github/contributors/SilveiraGuilherme/expenses-viewer.svg?style=for-the-badge
+[contributors-url]: https://github.com/SilveiraGuilherme/expenses-viewer/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SilveiraGuilherme/expenses-viewer.svg?style=for-the-badge
+[forks-url]: https://github.com/SilveiraGuilherme/expenses-viewer/network/members
+[stars-shield]: https://img.shields.io/github/stars/SilveiraGuilherme/expenses-viewer.svg?style=for-the-badge
+[stars-url]: https://github.com/SilveiraGuilherme/expenses-viewer/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SilveiraGuilherme/expenses-viewer.svg?style=for-the-badge
+[issues-url]: https://github.com/SilveiraGuilherme/expenses-viewer/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jsguilherme
