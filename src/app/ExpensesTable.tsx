@@ -26,10 +26,10 @@ export default function ExpensesTable(props: ExpensesScreenProps) {
         <TableBody>
           {props.expenses.map(expense => (
             <TableRow key={expense.id}>
-              <TableCell>{expense.description}</TableCell>
-              <TableCell>{expense.category}</TableCell>
-              <TableCell>{expense.day}</TableCell>
-              <TableCell align="right">{formatReal(expense.value)}</TableCell>
+              <TableCell>{expense.descricao}</TableCell>
+              <TableCell>{expense.categoria}</TableCell>
+              <TableCell>{expense.dia}</TableCell>
+              <TableCell align="right">{formatReal(expense.valor)}</TableCell>
             </TableRow>
           ))}
         </TableBody>
