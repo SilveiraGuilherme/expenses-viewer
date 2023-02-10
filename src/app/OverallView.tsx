@@ -9,7 +9,7 @@ export default function OverallView(props: OverallViewProps) {
   const total = calculateTotal(props.expenses);
   return (
     <div>
-      Overall Expense: <strong>{total}</strong>
+      Overall Expense: <strong>{formatReal(total)}</strong>
     </div>
   );
 }

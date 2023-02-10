@@ -29,7 +29,7 @@ export default function ExpensesTable(props: ExpensesScreenProps) {
               <TableCell>{expense.description}</TableCell>
               <TableCell>{expense.category}</TableCell>
               <TableCell>{expense.day}</TableCell>
-              <TableCell align="right">{expense.value}</TableCell>
+              <TableCell align="right">{formatReal(expense.value)}</TableCell>
             </TableRow>
           ))}
         </TableBody>
