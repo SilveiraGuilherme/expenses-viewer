@@ -25,8 +25,8 @@ export default function ExpensesScreen() {
       <ExpensesTable expenses={expenses} />
     </div>
   );
-}
 
-function onChangeYearMonth(newYearMonth: string) {
-  navigate(`/despesas/${newYearMonth}`);
+  function onChangeYearMonth(newYearMonth: string) {
+    navigate(`/despesas/${newYearMonth}`);
+  }
 }
