@@ -1,10 +1,10 @@
 export interface Expense {
   id: number;
-  descricao: string;
-  categoria: string;
-  valor: number;
-  mes: string;
-  dia: string;
+  description: string;
+  category: string;
+  value: number;
+  month: string;
+  day: string;
 }
 
 export function loadExpenses(yearMonth: string): Promise<Expense[]> {
