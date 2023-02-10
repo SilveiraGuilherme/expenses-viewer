@@ -1,12 +1,7 @@
-import { useEffect } from 'react';
-import { loadExpenses } from './backend';
+import ExpensesScreen from './ExpensesScreen';
 
 function App() {
-  useEffect(() => {
-    loadExpenses('2021-06').then(console.log);
-  }, []);
-
-  return <div>Projeto base</div>;
+  return <ExpensesScreen />;
 }
 
 export default App;
